@@ -74,3 +74,41 @@ h1 {
 h3 {
     font-size: 1rem;
 }
+
+#header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#header-top {
+    display: flex;
+    align-items: center;
+}
+
+#header-top svg {
+    width: 24px;
+    height: 24px;
+}
+
+#search-icon {
+    margin: 0 1rem 0 0;
+}
+
+#searchbar {
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 24px;
+    background-color: #e2e8f0;
+    padding: 10px;
+    margin: 0 20% 0 0;
+}
+
+.user-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+#notification-icon, #header-user-logo, #user-name {
+    margin: 0 1.5rem 0 0;
+}
