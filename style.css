@@ -109,6 +109,39 @@ h3 {
     border-radius: 100%;
 }
 
+#header-bottom {
+    display: flex;
+    align-items: center;
+}
+
 #notification-icon, #header-user-logo, #user-name {
     margin: 0 1.5rem 0 0;
+}
+
+#big-user-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0 15px 0 0;
+}
+
+#user-greeting {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: "Roboto";
+    margin: 0 43% 0 0;
+}
+
+#header-bottom button {
+    padding: 5px 20px 5px 20px; 
+    border-radius: 20px;
+    border: none;
+    background-color: #1992d4;
+    color: white;
+    cursor: pointer;
+}
+
+#small-greeting {
+    font-size: 10px;
 }
