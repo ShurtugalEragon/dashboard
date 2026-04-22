@@ -161,6 +161,12 @@ h3 {
     margin: 0 15px 0 0; 
 }
 
+#projects svg {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
 #projects-header {
     grid-column: 1 / -1;
     align-self: end;
@@ -173,6 +179,7 @@ h3 {
     border: solid;
     border-color: white white white #eeb737;
     border-width: 6px;
+    padding: 5px 20px 5px 20px;
 }
 
 #content-sidebar {
@@ -182,4 +189,9 @@ h3 {
 
 #content-sidebar div {
     border-color: white;
+}
+
+.project-icons {
+    display: flex;
+    justify-content: end;
 }
