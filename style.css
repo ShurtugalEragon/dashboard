@@ -227,10 +227,6 @@ h3 {
     font-size: 11px;
 }
 
-.announcement {
-    /* margin: 0 0 20px 0; */
-}
-
 #content h2 {
     margin: 0;
     font-size: 17px;
@@ -240,4 +236,25 @@ hr {
     margin: 13px 0 13px 0;
     color: #e2e8f0;
     opacity: 0.5;
+}
+
+.trending-card {
+    display: flex;
+}
+
+.trending-card img {
+    margin: 0 15px 0 0;
+}
+
+#trending {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.trending-logo {
+    width: 45px;
+    height: 40px;
+    border-radius: 100%;
 }
